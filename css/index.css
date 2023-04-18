@@ -62,7 +62,10 @@ body{
 .proyect__link{
     text-decoration: none;
     color: white;
-    background: green;
+    background: rgb(1, 83, 1);
     padding: 5px;
+    margin: 10px;
+    display: block;
     border-radius: 5px;
+    text-align: center;
 }
