@@ -1,39 +1,29 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: sans-serif;
     background-color: hsl(0, 0%, 93%);
+    color: white;
 }
 
-header{
-    margin: 0;
-    
+.header{   
     background-color: rgb(0 0 0 / .8);
     color: red;
-
-    width: 100vw;
     height: 100vh;
 
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
-
-
-
-    
+    align-items: center; 
 }
 
-header img{
+.header img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-}
-
-h1{
-    font-size: 1.5em;
 }
 
 .smallText{
@@ -41,49 +31,38 @@ h1{
     color: #ddd;
 }
 
-
-section{
-    background-color: hsl(0, 0%, 93%);
-
-    width: 100vw;
+.section{
+    background: #111;
     height: 100vh;
+    padding: 25px;
 }
 
-h2{
+.section h2{
     text-align: center;
 }
 
-.titleTypeProyect{
-    display: inline;
+.proyect{
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 25px;
 }
 
-.arrow{
-    width: 1em;
-    display: inline;
+.proyect__title{
+    color: #aaa;
+    margin-bottom: 5px;
+    text-align: left;
 }
 
-.UniversityProy,
-.AutodidactProy{
-    background-color: chocolate;
-
-    width: 80%;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-    cursor: pointer;
+.proyect__description{
+    margin: 10px;
+    text-align: justify;
 }
 
-
-
-.AutodidactProy{
-    background-color: coral;
+.proyect__link{
+    text-decoration: none;
+    color: white;
+    background: green;
+    padding: 5px;
+    border-radius: 5px;
 }
-
-.hide{
-    display: none;
-}
-
