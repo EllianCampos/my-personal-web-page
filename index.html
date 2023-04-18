@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="css/index.css">
     <title>Ellian Campos Proyects</title>
 </head>
 <body>
-    <div class="header">
-        <img src="assets/images/MyProfilePhoto.jpg" alt="Profile photo">
+    <header class="header">
+        <h2 class="header__title">Ellian Campos C.</h2>
+        <div class="socialNetworks">
+            <a href="https://www.instagram.com/elliangcc/" target="_blank" class="socialNetworks__link"><img src="assets/icons/instagram.svg" alt="instagram icon"></a>
+            <a href="https://github.com/EllianCampos" target="_blank" class="socialNetworks__link"><img src="assets/icons/github.svg" alt="github icon"></a>
+            <a href="https://www.linkedin.com/in/ellian-campos-ceciliano-0b741b241" target="_blank" class="socialNetworks__link"><img src="assets/icons/linkedin.svg" alt="linkedin icon"></a>
+        </div>
+    </header>
+
+    <div class="wallpaper">
+        <img src="assets/images/MyProfilePhoto.jpg" alt="Profile photo" class="wallpaper__img">
         <h1>
             <span class="smallText">Hello my name is</span>
             Ellian Campos Ceciliano
@@ -20,29 +35,27 @@
         </h1>
     </div>
 
-    <section class="section">
-        <h2>Proyectos</h2>
-       
-        <article class="proyect">
-            <h3 class="proyect__title">Calculadora JavaScript Vanilla</h3>
-            <p class="proyect__description">
-                Una Calculadora web
-            </p>
-            <a href="https://github.com/EllianCampos/calculator-vanillajs" target="_blank" class="proyect__link">Obtener codigo fuente</a>
-            <a href="https://elliancalculadora.netlify.app/" target="_blank" class="proyect__link">Probarlo</a>
-        </article>
-
-        <article class="proyect">
-            <h3 class="proyect__title">Java CRUD </h3>
-            <p class="proyect__description">
-                Proyecto del curso de Programación III. CRUD en java con el patron de diseño de arquitectura de software MVC
-            </p>
-            <a href="https://github.com/EllianCampos/java-crud-mvc-files" target="_blank" class="proyect__link">Obtener codigo fuente</a>
-        </article>
-        
-    </section>
-
+    <main>
+        <section class="section">
+            <h2>Proyectos Online que puedes probar</h2>
+           
+            <article class="proyect">
+                <h3 class="proyect__title">Calculadora JavaScript Vanilla</h3>
+                <p class="proyect__description">
+                    Una Calculadora web
+                </p>
+                <a href="https://elliancalculadora.netlify.app/" target="_blank" class="proyect__link">Probarlo</a>
+            </article>        
+        </section> 
     
+        <section class="section" id="container_githubproyects">
+            <h2>      
+                <img src="assets/icons/github.svg" alt="github icon" class="icon">      
+                Proyectos de Git Hub
+            </h2>
+        </section>
+    </main>
+
     <script src="js/index.js"></script>
 </body>
 </html>
