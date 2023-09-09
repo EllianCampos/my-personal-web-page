@@ -1,0 +1,7 @@
+.example-container:hover{
+    cursor: pointer;
+}
+
+.article{
+    cursor: pointer;
+}
